@@ -1,0 +1,23 @@
+{
+    "name": "Ozasvi On Demand",
+    "short_name": "Ozasvi On Demand",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "Customers can find various services very easily . Customers can find On Demand Services , Vendors , Jobs , Insurance , Income Tax Return , PAN Card , GSTR Filling , Consultancy , Labour , Advocate , Doctors , Matrimonial Services , Plumbers , Marketing Services , Financial Services , Human Resource Services, Operational Services , Legal Services , Administrative Services , Support Services , Emergency Services , Call Center Jobs , Business Deals , Bank Loans , Banking services , Travel & Tour Services , Transport Services , Agricultural Services, Export-Import Services , Labours , Daily Needs , Governmental Schemes , Production Services , Booking Services , Appointment Services , Sales Services, Investment Consultancy, Educational Services ,Tenders , Self Employment , Industrial Supply , Market Researchers , Other Taxation Work , Company Registration , Society Registration , Employment Services , Event Organisation & Management , Events & Engagement Activities , Company Management & Consultancy , Various Communities Memberships , Sales Of Various Product & Services In Multiple Industries.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

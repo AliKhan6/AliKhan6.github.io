@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+ <base href="/"> 
+ <!--  <base href="https://www.abg-studio.com/temp/">  -->
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Customers can find various services very easily . Customers can find On Demand Services , Vendors , Jobs , Insurance , Income Tax Return , PAN Card , GSTR Filling , Consultancy , Labour , Advocate , Doctors , Matrimonial Services , Plumbers , Marketing Services , Financial Services , Human Resource Services, Operational Services , Legal Services , Administrative Services , Support Services , Emergency Services , Call Center Jobs , Business Deals , Bank Loans , Banking services , Travel & Tour Services , Transport Services , Agricultural Services, Export-Import Services , Labours , Daily Needs , Governmental Schemes , Production Services , Booking Services , Appointment Services , Sales Services, Investment Consultancy, Educational Services ,Tenders , Self Employment , Industrial Supply , Market Researchers , Other Taxation Work , Company Registration , Society Registration , Employment Services , Event Organisation & Management , Events & Engagement Activities , Company Management & Consultancy , Various Communities Memberships , Sales Of Various Product & Services In Multiple Industries.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="uikit">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+
+  <title>Ozasvi On Demand</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOz5oWyuWCeyh-9c1W5gexDzRakcRP-eM"></script>
+  <meta name="google-signin-client_id" content="416149507323-2pdcpo2ibhsbctq4kde7aucmj40cc503.apps.googleusercontent.com">
+  
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+
+    <div class="loader">Loading...</div>
+
+<!-- START FACEBOOK SDK -->
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+     <!-- END FACEBOOK SDK  -->
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=1090832807');
+      });
+    }
+  </script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-storage.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+  apiKey: "AIzaSyCV9IGXmM2BSBRLkyUqzXOD9BoOOral7no",
+  authDomain: "onetap-ozasvl.firebaseapp.com",
+  projectId: "onetap-ozasvl",
+  storageBucket: "onetap-ozasvl.appspot.com",
+  messagingSenderId: "1064627742855",
+  appId: "1:1064627742855:web:5becb571e537900491b022",
+  measurementId: "G-NMVFL59FSL"
+};
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+  <script src="main.dart.js" type="application/javascript"></script>
+
+
+
+
+
+</body>
+</html>
